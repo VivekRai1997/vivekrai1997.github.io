@@ -19,7 +19,8 @@
     width: 86%;
     display: flex;
     margin: auto;
-    padding: 20px;
+    padding: 30px;
+    padding-top: 3px;
     padding-bottom: 0px;
     align-items: center;
     justify-content: space-between;
@@ -30,7 +31,9 @@
     cursor: pointer;
     margin-top: -3%;
     margin-left: -2%;
+    padding: 0px;
 }
+
 
 ul {
     margin-top: -4%;
