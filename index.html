@@ -1,97 +1,58 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>🎓Vivek's personal site</title>
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .main {
+
+            width: 100%;
+            background-image: url(pic/black.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            position: relative;
+            font-family: sans-serif;
+        }
+    </style>
 </head>
-
 <body>
-  <img src="vivek.png" alt="my photo" style="width:100px;height:100px;">
-  <h1>Vivek Sotang Rai</h1>
-  <em>
-    <p>Mechanical Engineer</p>
-  </em>
-  <p>I am a Mechanical Engineer by profession and Developer by passion</p>
-  <hr>
+    <div class="main">
+        <div class="navbar">
+            <img src="pic/Vivek-logos_transparent.png" class="logo">
 
+            <ul class="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li class="dropdown"><a href="about.html">ABOUT</a></li>
+                <li class="dropdown"><a href="skills.html">SKILLS</a></li>
+                <li><a href="project.html">MY PROJECT</a></li>
+                <li><a href="education.html">EDUCATION</a></li>
+            </ul>
+        </div>
 
+        <div class="info">
+            <h3>Hi, I'm <span>Vivek</span>.</h3>
+            <h2><span>A</span>SPIRING <span>J</span>AVA <span>D</span>EVELOPER</h2>
+            <h3> Looking for opportunity, with hand on experience in successful building and
+                deploying <br>web application with key skills - core Java, J2EE / Jakarta EE, Spring Boot, Spring MVC,
+                <br>Microservices, REST API, Hibernate, JDBC, Mysql.
+            </h3>
+            <a href="https://github.com/vivekrai1997/" target="_blank">Github</a>
+            <a href="https://www.linkedin.com/in/vivekrai1997" target="_blank">Linkedin</a>
+        </div>
 
-  <table cellspacing="20">
-    <tr>
-      <td><img src="vivek.png" alt="my photo" style="width:100px;height:100px;"></td>
-      <td><p>Mechanical Engineer</p>
-      <p>I am a Mechanical Engineer by profession and Developer by passion</p></td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>Graduated from <a href="https://www.avit.ac.in/">AVIT college</a></li>
-    <li>Learning Web Development</li>
-  </ul>
-  <hr>
-  <table>
-    <thead>   <!-- head and body are separated so to make change later -->
-    <tr>
-      <th>Date </th>
-      <th>Company Name</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td> 2021</td>
-      <td>Lincoln Electric Chennai</td>
-      </tr>
-      <tr>
-        <td>2022</td>
-        <td>Google</td>
-      </tr>
-      </tbody>
+        <div class="image">
+            <img src="pic/gray.png" class="boy">
+        </div>
 
-  </table>
-  <hr>
-
-
-
- <h3>Skills</h3>
- <table>        <!-- table layout with HTML -->
-   <tr>
-     <td><table>
-       <tr>
-         <td>CATIA</td>
-         <td>⭐⭐⭐⭐⭐</td>
-         </tr>
-         <tr>
-    <td>AUTOCAD</td>
-    <td>⭐⭐⭐⭐⭐ </td>
-       </tr>
-       </table></td>
-     <td>
-     <table>
-        <tr>
-          <td>CREO</td>
-          <td>⭐⭐⭐⭐⭐ </td>
-           </tr>
-          <tr>
-          <td>ANSYS</td>
-          <td>⭐⭐⭐ </td>
-
-        </tr>
-      </table>
-</td>
-   </tr>
- </table>
- <hr size="10">
-
-
-  <h3>My Hobbies</h3>
-  <ol>
-    <li>Sketching</li>
-    <li>Swimming</li>
-  </ol>
-
-  <a href="contactme.html" target="_blank">Contact me</a>      <!-- opening link in new tan ( target) -->
+        <div class="icons">
+           <div> <a href="https://www.facebook.com/VivekSotangRai" target="_blank"> <img src="pic/fb.png"></a></div>
+           <div> <a href="https://instagram.com/viveksotangrai?igshid=MzMyNGUyNmU2YQ=="
+            target="_blank"><img src="pic/instagram.png"></a></div>
+           <div> <a href="mailto:viveksotangrai@gmail.com" target="_blank"><img src="pic/gmail.png"></a></div>
+        </div>
+    </div>
 </body>
-
 </html>
