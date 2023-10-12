@@ -262,6 +262,28 @@ ul li a:hover {
     color: #fff;
 }
 
+
+/* Media Query for Small Screens (e.g., Mobile Devices) */
+@media screen and (max-width: 767px) {
+    .table-section table {
+        margin: auto;
+        border: greenyellow solid 3px;
+        width: 85%;
+        text-align: center;
+        color: #fff;
+    }
+    .table-section  td{
+        font-size: 15px;
+        color: red;
+    }
+    .table-section  th{
+        font-size: 15px;
+        color: red;
+    }
+}
+
+
+
 th {
     color: black;
     background-color: gainsboro;
