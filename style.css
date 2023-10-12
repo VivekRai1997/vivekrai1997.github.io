@@ -92,10 +92,10 @@ ul li a:hover {
     color: rgb(230, 104, 59);
 }
 
-.info a {
+.info .git {
     text-decoration: none;
     color: #fff;
-    background: red;
+    background: #bd2c00;
     margin: 26px 0;
     padding: 10px 18px;
     border-radius: 10px;
@@ -103,9 +103,38 @@ ul li a:hover {
     transition: .4s ease;
 }
 
-.info a:hover {
-    background: rgb(59, 174, 209);
+.info .linkedin {
+    text-decoration: none;
+    color: #fff;
+    background:#0072b1;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
 }
+
+.info .resume {
+    text-decoration: none;
+    color: #fff;
+    background: #1AD526;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info .git:hover {
+    background: #D51AD5;
+}
+.info .linkedin:hover {
+    background: #e9ec09;
+}
+.info .resume:hover {
+    background: #e90e0e;
+}
+
 
 .image {
     width: 30%;
