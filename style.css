@@ -59,16 +59,9 @@ ul li a:hover {
     color: rgb(230, 104, 59);
 }
 
-
-
-
-
-
-
-
 .info {
     margin-left: 7%;
-    margin-top: 6%;
+    margin-top: 3%;
 }
 
 .info h1 {
@@ -133,6 +126,25 @@ ul li a:hover {
 }
 .info .resume:hover {
     background: #e90e0e;
+}
+
+
+/* Media Query for Small Screens (e.g., Mobile Devices) */
+@media screen and (max-width: 767px) {
+    .info h2 {
+        font-size: 24px;
+        color: white;
+    }
+    
+    .info h3 {
+        padding-top: 5px;
+        font-size: 17px;
+        letter-spacing: 1px;
+        line-height: 24px;
+        color: white;
+    }
+
+
 }
 
 
