@@ -267,18 +267,16 @@ ul li a:hover {
 @media screen and (max-width: 767px) {
     .table-section table {
         margin: auto;
-        border: greenyellow solid 3px;
+        border: orangered solid 3px;
         width: 85%;
         text-align: center;
         color: #fff;
     }
     .table-section  td{
         font-size: 15px;
-        color: red;
     }
     .table-section  th{
         font-size: 15px;
-        color: red;
     }
 }
 
