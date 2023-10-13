@@ -364,9 +364,9 @@ td {
 
 
 .project-intro {
-    font-size: 15px;
+    font-size: 17px;
     letter-spacing: 1px;
-    line-height: 25px;
+    line-height: px;
     color: white;
     border: orangered solid 2px;
     border-radius: 20px;
@@ -375,6 +375,19 @@ td {
     margin-bottom: 10px;
 }
 
+
+/* Media Query for Small Screens (e.g., Mobile Devices) */
+@media screen and (max-width: 767px) {
+   .project-intro h3{
+    font-size: 16px;
+    line-height: 25px;
+   }
+
+    
+}
+
+
+
 .project-p {
     align-items: center;
     text-align: center;
@@ -382,7 +395,7 @@ td {
     padding: 15px;
     border: orangered solid 2px;
     border-radius: 20px;
-    font-size: 15px;
+    font-size: 18px;
     letter-spacing: 1px;
     line-height: 25px;
     color: white;
@@ -390,7 +403,8 @@ td {
 /* Media Query for Small Screens (e.g., Mobile Devices) */
 @media screen and (max-width: 767px) {
     .project-p p{
-
+        font-size: 16px;
+        
     }
 }
 
