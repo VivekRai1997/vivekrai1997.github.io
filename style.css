@@ -364,9 +364,9 @@ td {
 
 
 .project-intro {
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: 1px;
-    line-height: px;
+    line-height: 25px;
     color: white;
     border: orangered solid 2px;
     border-radius: 20px;
@@ -382,10 +382,16 @@ td {
     padding: 15px;
     border: orangered solid 2px;
     border-radius: 20px;
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: 1px;
     line-height: 25px;
     color: white;
+}
+/* Media Query for Small Screens (e.g., Mobile Devices) */
+@media screen and (max-width: 767px) {
+    .project-p p{
+
+    }
 }
 
 .java-container {
