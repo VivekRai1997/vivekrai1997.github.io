@@ -479,6 +479,9 @@ video {
         text-align: center;
         margin: 30px;
     }
+    .video-container h2{
+        font-size: 17px;
+    }
 
     video {
         border: 8px solid #b8b4b4;
@@ -524,8 +527,6 @@ video {
         width: 80%;
         height: auto;
     }
-
-
     .stand1 img {
         width: 13px;
         height: 13px;
